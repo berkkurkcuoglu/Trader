@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#include "TableViewController.h"
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UITextField *usernameField;
+@property (strong, nonatomic) IBOutlet UITextField *passwordField;
 
 
 @end

@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0327755202648E000B7CA7B /* PortfolioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0327754202648E000B7CA7B /* PortfolioCell.m */; };
 		C0340E512025E80B00AE86C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0340E502025E80B00AE86C0 /* AppDelegate.m */; };
-		C0340E542025E80B00AE86C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0340E532025E80B00AE86C0 /* ViewController.m */; };
 		C0340E572025E80B00AE86C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0340E552025E80B00AE86C0 /* Main.storyboard */; };
 		C0340E592025E80B00AE86C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0340E582025E80B00AE86C0 /* Assets.xcassets */; };
 		C0340E5C2025E80B00AE86C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0340E5A2025E80B00AE86C0 /* LaunchScreen.storyboard */; };
 		C0340E5F2025E80B00AE86C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0340E5E2025E80B00AE86C0 /* main.m */; };
+		C0340E672025EAFB00AE86C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0340E652025EAFB00AE86C0 /* ViewController.m */; };
+		C0340E6A2025ED7600AE86C0 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0340E692025ED7600AE86C0 /* TableViewController.m */; };
+		C0D3CE0D20260BA500DA413A /* Portfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D3CE0C20260BA500DA413A /* Portfolio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0327753202648E000B7CA7B /* PortfolioCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioCell.h; sourceTree = "<group>"; };
+		C0327754202648E000B7CA7B /* PortfolioCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCell.m; sourceTree = "<group>"; };
 		C0340E4C2025E80B00AE86C0 /* Trader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0340E4F2025E80B00AE86C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0340E502025E80B00AE86C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C0340E522025E80B00AE86C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C0340E532025E80B00AE86C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C0340E562025E80B00AE86C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0340E582025E80B00AE86C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0340E5B2025E80B00AE86C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0340E5D2025E80B00AE86C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0340E5E2025E80B00AE86C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0340E652025EAFB00AE86C0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0340E662025EAFB00AE86C0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0340E682025ED7600AE86C0 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C0340E692025ED7600AE86C0 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C0D3CE0B20260BA500DA413A /* Portfolio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Portfolio.h; sourceTree = "<group>"; };
+		C0D3CE0C20260BA500DA413A /* Portfolio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Portfolio.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +67,21 @@
 		C0340E4E2025E80B00AE86C0 /* Trader */ = {
 			isa = PBXGroup;
 			children = (
+				C0340E662025EAFB00AE86C0 /* ViewController.h */,
+				C0340E652025EAFB00AE86C0 /* ViewController.m */,
 				C0340E4F2025E80B00AE86C0 /* AppDelegate.h */,
 				C0340E502025E80B00AE86C0 /* AppDelegate.m */,
-				C0340E522025E80B00AE86C0 /* ViewController.h */,
-				C0340E532025E80B00AE86C0 /* ViewController.m */,
 				C0340E552025E80B00AE86C0 /* Main.storyboard */,
 				C0340E582025E80B00AE86C0 /* Assets.xcassets */,
 				C0340E5A2025E80B00AE86C0 /* LaunchScreen.storyboard */,
 				C0340E5D2025E80B00AE86C0 /* Info.plist */,
 				C0340E5E2025E80B00AE86C0 /* main.m */,
+				C0340E682025ED7600AE86C0 /* TableViewController.h */,
+				C0340E692025ED7600AE86C0 /* TableViewController.m */,
+				C0D3CE0B20260BA500DA413A /* Portfolio.h */,
+				C0D3CE0C20260BA500DA413A /* Portfolio.m */,
+				C0327753202648E000B7CA7B /* PortfolioCell.h */,
+				C0327754202648E000B7CA7B /* PortfolioCell.m */,
 			);
 			path = Trader;
 			sourceTree = "<group>";
@@ -142,9 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0340E542025E80B00AE86C0 /* ViewController.m in Sources */,
+				C0327755202648E000B7CA7B /* PortfolioCell.m in Sources */,
+				C0340E672025EAFB00AE86C0 /* ViewController.m in Sources */,
+				C0D3CE0D20260BA500DA413A /* Portfolio.m in Sources */,
 				C0340E5F2025E80B00AE86C0 /* main.m in Sources */,
 				C0340E512025E80B00AE86C0 /* AppDelegate.m in Sources */,
+				C0340E6A2025ED7600AE86C0 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
